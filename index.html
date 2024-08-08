@@ -29,28 +29,62 @@
     <main class="mflex">
         <div class="main1">
             <img src="https://a0.muscache.com/im/pictures/9caaca2d-6892-4638-b675-6a879974f5ed.jpg?im_w=960" alt="House" class="main-image">
-            <div class="search-box">
-                <h1>Find places to stay on Airbnb</h1>
-                <p>Discover entire homes and private rooms perfect for any trip.</p>
-                <div class="search-item">
-                    <label for="location" class="input-label">LOCATION</label><br>
-                    <input type="text"  class="input-field borderline" placeholder="Anywhere">
+            <div>
+                <div class="search-box">
+                    <h1>Find places to stay on Airbnb</h1>
+                    <p>Discover entire homes and private rooms perfect for any trip.</p>
+                    <div class="search-item">
+                      <label for="location" class="input-label">LOCATION</label><br>
+                       <input type="text"  class="input-field borderline" placeholder="Anywhere">
+                    </div>
+                    <div class="search-flex">
+                        <div class>
+                            <label for="check-in" class="input-label">CHECK-IN</label>
+                            <input type="date"  class="input-field borderline">
+                        </div>
+                        <div>
+                            <label for="check-out" class="input-label">CHECK-OUT</label>
+                            <input type="date"  class="input-field borderline">
+                        </div>
+                    </div>
+                    <div class="search-flex">
+                        <div>
+                            <label class="input-label pad1">ADULTS</label><br>
+                                <select class="input-field">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="input-label">CHILDREN</label><br>
+                            <select class="input-field">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="search-button">Search</button>
                 </div>
-                <div class="search-flex"">
-                    <label for="check-in" class="input-label">CHECK-IN</label>
-                    <input type="date"  class="input-field">
-                </div>
-                <div class="search-flex">
-                    <label for="check-out" class="input-label">CHECK-OUT</label>
-                    <input type="date"  class="input-field">
-                </div>
-                <div class="search-item">
-                    <label for="guests" class="input-label">GUESTS</label>
-                    <input type="number" class="input-field" placeholder="Add guests">
-                </div>
-                <button class="search-button">Search</button>
-            </div>
-        </div> 
+            </div> 
+        
     </main>
 </body>
 </html>

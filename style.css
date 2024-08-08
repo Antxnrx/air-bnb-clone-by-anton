@@ -116,6 +116,7 @@
     gap: 16px;
 }
 
+
 .search-box h1 {
     font-size: 24px;
     margin-bottom: 8px;
@@ -162,4 +163,14 @@
     margin:none;
     padding :1px;
     padding-top:5px;
+}
+
+.search-flex{
+    display: flex;
+    justify-content:row;
+
+}
+
+.pad1{
+    padding-right:80px;
 }
