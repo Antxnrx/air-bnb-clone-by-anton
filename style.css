@@ -286,7 +286,7 @@
 .op1 {
     width: 100%;
     background-color: white;
-    height: 750px;
+    height: 652px;
 }
 
 .op2 {
@@ -362,14 +362,61 @@
 .at1b{
     font-size: 19px;
     padding-bottom: 40px;
+    font-weight: 400;
 }
 
-.ati1c{
+.atimage{
+    display: flex;
+    flex-direction: row;
+}
+.ati1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height:286px;
+    max-width:302px;
+    gap:20px;
+}
+
+.at1c{
     height: 286px;
     width: 302px;
+    border-radius: 10px;
 }
 
 
+.cap1{
+    font-size: 18px;
+    font-weight: 450;
+    padding-bottom: 7px;
+    padding-top:7px;
+}
+
+.capa1{
+    font-size: 14px;
+    color: #555;
+    padding-bottom: 3px;
+}
+
+.fw1{
+    font-weight: 500;
+    padding-right: 4px;
+}
+
+.x1{
+    display: flex;
+    flex-direction: row;
+}
+
+.zx1{
+    display: flex;
+    flex-direction: row;
+}
+
+.zxc1{
+    padding-left: 3px;
+    color: #555;
+}
 /* footer */
 
 .footerm{
