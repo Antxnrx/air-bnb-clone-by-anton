@@ -417,6 +417,47 @@
     padding-left: 3px;
     color: #555;
 }
+
+.atx1{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.atxc1{
+    display: flex;
+}
+.svg1{
+    padding-top:7px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.svgf1{
+    font-weight: 400;
+    padding-top:5px;
+    padding-left:3px;
+}
+
+.buttona1{
+    padding-top: 150px;
+}
+
+.button1{
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 450;
+    background-color: white;
+    border-radius: 8px;
+    border-color: #555;
+    border-width: 1px;
+    transition: 0.5ms;
+}
+
+.button1:hover{
+    background-color: rgba(167, 167, 167, 0.096);
+}
 /* footer */
 
 .footerm{
