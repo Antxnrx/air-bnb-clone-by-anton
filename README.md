@@ -13,7 +13,7 @@ This project is a static clone of the Airbnb website, primarily focused on stren
 ## Project Videos
 
 ### Original Airbnb Website
-[Actual/Real website of airbnb which i tried cloning](https://youtu.be/TbpoPVBjkgs)
+[Actual/Real website of airbnb which i tried cloning](https://youtu.be/NBG5UC7Suos)
 
 ### My Airbnb Clone
-[My Cloned website Video](https://youtu.be/QGOUXDpcV9A)
+[My Cloned website Video](https://youtu.be/CVsQxfMlLUg)
